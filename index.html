@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz App</h1>
+    </header>
+    <div class="quiz-container">
+        <div id="quiz">
+            <div id="question-container">
+                <div id="question"></div>
+                <div id="timer">Time: <span id="time">30</span>s</div>
+                <div id="answer-buttons" class="btn-container"></div>
+            </div>
+            <button id="next-btn" class="btn">Next</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Your Score: <span id="score"></span></h2>
+            <div id="correct-answers"></div>
+            <button id="restart-btn" class="btn">Restart Quiz</button>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Quiz App. All rights reserved.</p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
